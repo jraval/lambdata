@@ -1,22 +1,27 @@
-hello
+# lambdata
+
+
+
+
 
 ## Installation 
 
-TO DO
+
+
+```sh
+pip install ________
+```
+
 
 ## USAGE
 
-TO DO
 
 ```py
-# to do
+from mylambdata.mymod import enlarge
+
+
+print(enlarge(8))
 ```
-
-<hr>
-
-this is a list:
- + item 1
- + item 2
 
 
 
