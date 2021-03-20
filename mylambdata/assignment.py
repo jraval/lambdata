@@ -79,7 +79,8 @@ def add_state_names_column(my_df):
         'WY': 'Wyoming'}
 
     #breakpoint()
-    new_df["name"] = new_df["abbrev"].map(names_map)
+    new_df["name"] = new_df["abbrev"].map(names_map) 
+    # Link related to map f(x) above https://pandas.pydata.org/docs/reference/api/pandas.Series.map.html
 
     return new_df
 
